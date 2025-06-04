@@ -1,0 +1,5 @@
+money:
+  # 玩家UUID: 金钱数量
+  # 例如:
+  # "player-uuid-1": 100.0
+  # "player-uuid-2": 150.5

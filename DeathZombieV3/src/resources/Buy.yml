@@ -1,0 +1,186 @@
+#Buy.yml:
+#=========================
+default_money: 100000.0
+
+# 护甲类型
+ar:
+  id1:
+    name: "皮革套装(上)"
+    price: 50
+  id2:
+    name: "皮革套装(下)"
+    price: 25
+  id3:
+    name: "锁链套装(上)"
+    price: 100
+  id4:
+    name: "锁链套装(下)"
+    price: 70
+  id5:
+    name: "铁套装(上)"
+    price: 300
+  id6:
+    name: "铁套装(下)"
+    price: 250
+  id7:
+    name: "钻石套装(上)"
+    price: 1000
+  id8:
+    name: "钻石套装(下)"
+    price: 1000
+  id9:
+    name: "附魔钻石套装1号"
+    price: 20000
+  id10:
+    name: "附魔钻石套装1号(下)"
+    price: 10000
+  id11:
+    name: "附魔钻石套装2号(上)"
+    price: 100000
+  id12:
+    name: "附魔钻石套装2号(下)"
+    price: 90000
+
+wp:
+  id1:
+    name: "手枪"
+    material: "WOOD_SPADE"
+    price: 100
+  id2:
+    name: "步枪"
+    material: "STONE_HOE"
+    price: 300
+  id3:
+    name: "霰弹枪"
+    material: "STONE_AXE"
+    price: 250
+  id4:
+    name: "机枪"
+    material: "BOW"
+    price: 550
+  id5:
+    name: "火箭筒"
+    material: "IRON_SPADE"
+    price: 750
+  id6:
+    name: "电击枪"
+    material: "IRON_PICKAXE"
+    price: 2000
+  id7:
+    name: "狙击步枪"
+    material: "GOLD_SPADE"
+    price: 1000
+  id8:
+    name: "冷冻枪"
+    material: "IRON_HOE"
+    price: 3000
+  id9:
+    name: "雷击枪"
+    material: "DIAMOND_HOE"
+    price: 100000
+  id10:
+    name: "压强枪"
+    material: "DIAMOND_AXE"
+    price: 3000
+  id11:
+    name: "铁剑"
+    material: "IRON_SWORD"
+    price: 50
+  id12:
+    name: "钻石剑"
+    material: "DIAMOND_SWORD"
+    price: 1000
+
+it:
+  id1:
+    name: "速度buff1药水"
+    material: "POTION"
+    price: 50
+  id2:
+    name: "跳跃buff1药水"
+    material: "POTION"
+    price: 50
+  id3:
+    name: "手枪弹药"
+    material: "POTION"
+    price: 50
+  id4:
+    name: "步枪弹药"
+    material: "POTION"
+    price: 100
+  id5:
+    name: "霰弹枪弹药"
+    material: "POTION"
+    price: 200
+  id6:
+    name: "机枪弹药"
+    material: "POTION"
+    price: 200
+  id7:
+    name: "火箭筒弹药"
+    material: "POTION"
+    price: 400
+  id8:
+    name: "电击枪弹药"
+    material: "POTION"
+    price: 600
+  id9:
+    name: "狙击步枪弹药"
+    material: "POTION"
+    price: 500
+  id10:
+    name: "冰冻枪弹药"
+    material: "POTION"
+    price: 300
+  id11:
+    name: "雷击枪弹药"
+    material: "POTION"
+    price: 1000
+  id12:
+    name: "压强枪弹药"
+    material: "POTION"
+    price: 1000
+  id13:
+    name: "金苹果"
+    material: "GOLDEN_APPLE"
+    price: 100
+
+
+
+sp:
+  id1:
+    name: "全体加速"
+    price: 150
+  id2:
+    name: "全体回复(1)"
+    price: 100
+  id3:
+    name: "全体回复(2)"
+    price: 300
+  id4:
+    name: "大量牛奶"
+    price: 150
+  id5:
+    name: "全体回复(3)"
+    price: 300
+  id6:
+    name: "生命提升(1)"
+    price: 500
+  id7:
+    name: "生命提升(2)"
+    price: 800
+  id8:
+    name: "全体力量"
+    price: 1600
+  id9:
+    name: "生命提升(3)"
+    price: 3600
+  id10:
+    name: "快速传送"
+    price: 2000
+  id11:
+    name: "无敌时间"
+    price: 10000
+
+
+

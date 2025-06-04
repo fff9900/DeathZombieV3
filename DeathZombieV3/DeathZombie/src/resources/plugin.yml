@@ -1,0 +1,24 @@
+# DeathZombie 插件的 plugin.yml 文件
+
+name: DeathZombie
+main: DeathZombie.DeathZombie
+version: 1.0
+api-version: 1.8.8
+description: 新概念僵尸末日
+author: Ver_zhzh
+
+# 插件的依赖关系
+depend:
+  - HolographicDisplays
+  - PlaceholderAPI
+  - TitleAPI
+  - Shoot
+
+softdepend:
+  - ParticleAPI
+
+# 定义命令
+commands:
+  dzs:
+    description: DeathZombie 的主命令
+    usage: /dzs <子命令> [参数]

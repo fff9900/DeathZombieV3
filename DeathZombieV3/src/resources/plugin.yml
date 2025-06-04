@@ -1,0 +1,26 @@
+name: Shoot
+version: 1.0
+main: Shoot.Shoot
+api-version: 1.8
+commands:
+  shoot:
+    description: 主射击插件指令
+    usage: /shoot <get|help|up|display|reload>
+  byr:
+    description: 物品购买点管理指令
+    usage: /byr <set|remove>
+    permission: shoot.byr
+
+permissions:
+  shoot.byr:
+    description: 允许管理购买点
+    default: op
+  otherplugin.setmoney:
+    description: 允许设置金币数量
+    default: op
+  otherplugin.addpurchase:
+    description: 允许添加购买记录
+    default: op
+depend:
+  - TitleAPI
+  - Citizens

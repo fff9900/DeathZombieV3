@@ -1,0 +1,149 @@
+#=========================
+#config.yml:
+guns:
+  id1:
+    name: "手枪"
+    material: WOOD_SPADE
+    ammo: 300   #（总子弹数量）
+    clip_size: 5  #（弹夹容量）
+    reload_time: 2 #（换弹时间，秒）
+    cooldown: 1 #（射击冷却时间，秒）
+    damage: 15 #（伤害）
+    special_damage: ""  #（特殊伤害，留空则无）
+    limit_shoot: 20      # 连续射击的次数限制
+    limit_shoot_time: 5  # 达到限制后进入的不可射击时间（秒）
+    shoot_sound_start: "GLASS"  # 射击时播放的音效，留空则不播放
+    shoot_sound_hit: "AMBIENCE_THUNDER"    # 命中目标时播放的音效，留空则不播放
+    particle: "CRIT"                          # 射击粒子效果
+
+  id2:
+    name: "步枪"
+    material: STONE_HOE
+    ammo: 300
+    clip_size: 10
+    reload_time: 3
+    cooldown: 0.5
+    damage: 50
+    special_damage: ""
+    limit_shoot: 30      # 连续射击的次数限制
+    limit_shoot_time: 8  # 达到限制后进入的不可射击时间（秒）
+    shoot_sound_start: "GLASS"  # 射击时播放的音效，留空则不播放
+    shoot_sound_hit: "AMBIENCE_THUNDER"    # 命中目标时播放的音效，留空则不播放
+    particle: "FLAME"                         # 射击粒子效果
+
+  id3:
+    name: "霰弹枪"
+    material: IRON_HOE
+    ammo: 80
+    clip_size: 4
+    reload_time: 3
+    cooldown: 2
+    damage: 70
+    special_damage: ""
+    limit_shoot: 12       # 连续射击的次数限制
+    limit_shoot_time: 5  # 达到限制后进入的不可射击时间（秒）
+    shoot_sound_start: "ENTITY_ARROW_SHOOT"  # 射击时播放的音效，留空则不播放
+    shoot_sound_hit: "ENTITY_GENERIC_EXPLODE"  # 命中目标时播放的音效，留空则不播放
+    particle: "SMOKE_LARGE"  # 射击粒子效果
+
+  id4:
+    name: "机枪"
+    material: BOW
+    ammo: 500   #（总子弹数量）
+    clip_size: 50  #（弹夹容量）
+    reload_time: 2 #（换弹时间，秒）
+    cooldown: 0.25 #（射击冷却时间，秒）
+    damage: 40 #（伤害）
+    special_damage: ""  #（特殊伤害，留空则无）
+    limit_shoot: 50       # 连续射击的次数限制
+    limit_shoot_time: 3  # 达到限制后进入的不可射击时间（秒）
+    shoot_sound_start: "BOW_FIRE"  # 射击时播放的音效，留空则不播放
+    shoot_sound_hit: "ENTITY_ARROW_HIT"    # 命中目标时播放的音效，留空则不播放
+    particle: "CRIT"  # 射击粒子效果
+
+  id5:
+    name: "火箭筒"
+    material: IRON_SPADE  # 枪的材质为铁铲
+    ammo: 50   #（总子弹数量）
+    clip_size: 5  #（弹夹容量）
+    reload_time: 4 #（换弹时间，秒）
+    cooldown: 2 #（射击冷却时间，秒）
+    damage: 100 #（子弹伤害）
+    special_damage: "400"  #（特殊伤害，烈焰弹造成400点伤害）
+    limit_shoot: 5       # 连续射击的次数限制
+    limit_shoot_time: 10  # 达到限制后进入的不可射击时间（秒）
+    shoot_sound_start: "ENTITY_FIREWORK_LAUNCH"  # 射击时播放的音效，留空则不播放
+    shoot_sound_hit: "ENTITY_GENERIC_EXPLODE"    # 命中目标时播放的音效，留空则不播放
+    particle: "FLAME"  # 射击粒子效果
+
+  id6:
+    name: "电击枪"
+    material: "IRON_PICKAXE"
+    ammo: 130
+    damage: 100
+    special_damage: 75
+    particle: "SPELL_WITCH"
+    cooldown: 0.5
+    limit_shoot: 25
+    limit_shoot_time: 15
+    shoot_sound_start: "ENTITY_ARROW_SHOOT"
+    shoot_sound_hit: "ENTITY_ZOMBIE_ATTACK_DOOR_WOOD"
+
+  id7:
+    name: "狙击步枪"
+    material: GOLD_SPADE
+    ammo: 60
+    damage: 800
+    particle: HEART
+    special_damage: 0
+    cooldown: 2
+    limit_shoot: 10
+    limit_shoot_time: 15
+    shoot_sound_start: ENTITY_ARROW_SHOOT
+    shoot_sound_hit: ENTITY_ARROW_HIT
+
+  id8:
+    name: "冷冻枪"
+    material: DIAMOND_SPADE
+    ammo: 125
+    clip_size: 5
+    reload_time: 3 #（换弹时间，秒）
+    cooldown: 1 #（射击冷却时间，秒）
+    damage: 10 #（子弹伤害）
+    special_damage: "90"  #（特殊伤害，冻结后造成90点伤害）
+    limit_shoot: 10       # 连续射击的次数限制
+    limit_shoot_time: 5  # 达到限制后进入的不可射击时间（秒）
+    shoot_sound_start: "ENDERMAN_TELEPORT"  # 射击时播放的音效，留空则不播放
+    shoot_sound_hit: "ENTITY_ENDERMAN_TELEPORT"    # 命中目标时播放的音效，留空则不播放
+    particle: "SPELL_INSTANT"  # 射击粒子效果
+
+  id9:
+    name: "雷击枪"
+    material: DIAMOND_PICKAXE
+    ammo: 50   #（总子弹数量）
+    clip_size: 5  #（弹夹容量）
+    reload_time: 3 #（换弹时间，秒）
+    cooldown: 1 #（射击冷却时间，秒）
+    damage: 800 #（子弹伤害）
+    special_damage: "1000"  #（特殊伤害，雷击造成25点伤害）
+    limit_shoot: 10       # 连续射击的次数限制
+    limit_shoot_time: 5  # 达到限制后进入的不可射击时间（秒）
+    shoot_sound_start: "ENTITY_LIGHTNING_BOLT_THUNDER"  # 射击时播放的音效，留空则不播放
+    shoot_sound_hit: "ENTITY_LIGHTNING_BOLT_IMPACT"    # 命中目标时播放的音效，留空则不播放
+    particle: "CRIT_GREEN"  # 射击粒子效果
+
+  id10:
+    name: "压强枪"
+    material: DIAMOND_AXE  # 枪的材质为钻石斧
+    ammo: 60   #（总子弹数量）
+    clip_size: 10  #（弹夹容量）
+    reload_time: 3 #（换弹时间，秒）
+    cooldown: 1.5 #（射击冷却时间，秒）
+    damage: 80 #（子弹伤害）
+    special_damage: "150"  #（特殊伤害，烟雾击退造成15点伤害）
+    limit_shoot: 15       # 连续射击的次数限制
+    limit_shoot_time: 7  # 达到限制后进入的不可射击时间（秒）
+    shoot_sound_start: "ENTITY_ZOMBIE_BREAK_DOOR_WOOD"  # 射击时播放的音效，留空则不播放
+    shoot_sound_hit: "ENTITY_GENERIC_EXPLODE"    # 命中目标时播放的音效，留空则不播放
+    particle: "CLOUD"  # 射击粒子效果，模拟烟雾
+

@@ -1,0 +1,10 @@
+name: CustomZombie
+version: 1.0
+main: CustomZombie.CustomZombie
+api-version: 1.8
+depend: [Citizens]
+commands:
+  czm:
+    description: 自定义僵尸生成指令
+    usage: /czm zombie|other <ID|IDC>
+    aliases: []
